@@ -1,0 +1,9 @@
+title: Angela Li
+email: angela.li1@ucalgary.ca
+description: >-
+  A portfolio showcasing my data science journey, skills, and projects.
+baseurl: ""
+url: "https://angela-li.github.io"
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
