@@ -1,9 +1,15 @@
 title: Angela Li
 email: angela.li1@ucalgary.ca
-description: >-
-  A portfolio showcasing my data science journey, skills, and projects.
-baseurl: "https://firekeepur.github.io"
-url: "/angela-li.github.io"
-theme: jekyll-theme-cayman
+description: Data Science Portfolio
+url: "https://firekeepur.github.io"
+baseurl: "/angela-li.github.io"
+author:
+  name: Angela Li
+  avatar: "/assets/images/profile.jpg"
+  email: angela.li1@ucalgary.ca
+  github: firekeepur
+  linkedin: angela-li-520520
+  linktree: firekeepur
+theme: beautiful-jekyll
 plugins:
   - jekyll-feed

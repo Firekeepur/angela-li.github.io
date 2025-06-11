@@ -1,15 +1,18 @@
 ---
 layout: page
 title: Skills
+permalink: /skills/
 ---
 
-# Technical Skills
-- **Languages:** Python, R, SQL, Java
-- **Tools:** Tableau, Power BI, Azure, Git, scikit-learn
-- **Techniques:** Regression, Clustering, PCA, Data Cleaning
+## Technical Skills
 
-# Soft Skills
-- Communication  
-- Problem Solving  
-- Project Management  
-- Team Collaboration
+- Python, R, SQL, C++
+- Azure, Databricks, Tableau
+- Data Cleaning, Regression, Clustering, PCA
+
+## Soft Skills
+
+- Communication
+- Problem Solving
+- Project Management
+- Critical Thinking

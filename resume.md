@@ -1,29 +1,25 @@
 ---
 layout: page
 title: Resume
+permalink: /resume/
 ---
 
-# Resume
-
-**Angela Li**  
-Calgary, AB  
-[LinkedIn](https://www.linkedin.com/in/angela-li-520520/) | angela.li1@ucalgary.ca
-
 ## Summary
-Data Scientist with experience in data engineering, analytics, and software development using Python, R, Azure, and visualization tools like Power BI and Tableau.
+
+Data Scientist with experience in data engineering, analytics, and software development.
 
 ## Skills
-- **Languages:** Python, R, SQL, Java, C++
-- **Tools:** Azure, Databricks, Tableau, Power BI, Git
-- **Techniques:** Machine Learning, Statistical Modeling, ETL, Data Visualization
+- **Languages:** Python, R, SQL, Java
+- **Tools:** Azure, Tableau, Power BI
+- **Techniques:** Classification, Regression, Clustering
 
 ## Experience
-**Data Engineer**, BDO Lixar – Calgary, AB (2022–2023)  
-Worked on ETL pipelines, data lakes, and Pyspark in Databricks.
 
-**Software Developer Intern**, MNP – Calgary, AB (2020–2021)  
-Developed front-end UIs and backend APIs. Managed stored procedures.
+**BDO Lixar** – Data Engineer  
+**MNP** – Software Developer Intern  
+**Calgary Dental Centers** – Dental Assistant
 
 ## Education
-**Master of Data Science**, University of Calgary  
-**BSc Computer Science**, Mount Royal University
+
+**MDS**, University of Calgary  
+**BSc CS**, Mount Royal University
