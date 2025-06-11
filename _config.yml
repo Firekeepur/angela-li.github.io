@@ -3,7 +3,7 @@ email: angela.li1@ucalgary.ca
 description: >-
   A portfolio showcasing my data science journey, skills, and projects.
 baseurl: "https://firekeepur.github.io"
-url: "angela-li.github.io"
+url: "/angela-li.github.io"
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
