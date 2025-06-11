@@ -1,83 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Angela Li | Data Science Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <style>
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      line-height: 1.6;
-      background: #f9f9f9;
+      background: #f4f4f9;
       color: #333;
     }
     header {
       background: #1a1a1a;
       color: white;
-      padding: 3rem 1rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
+    header img {
+      border-radius: 50%;
+      width: 120px;
+      margin-top: 1rem;
+    }
     header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+      margin: 0.5rem 0 0.2rem;
+      font-size: 2.2rem;
     }
     header p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      margin: 0.2rem 0 1rem;
     }
     section {
-      max-width: 800px;
+      max-width: 850px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
     h2 {
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 0.4rem;
       color: #1a1a1a;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.5rem;
     }
-    .project {
+    .project, .education, .skills, .contact {
       background: white;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-left: 5px solid #0077cc;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      padding: 1.2rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
     }
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      background: #f0f0f0;
-      font-size: 0.9rem;
+    .project h3 {
+      margin-top: 0;
+      color: #0077cc;
+    }
+    .icon {
+      color: #0077cc;
+      margin-right: 0.5rem;
     }
     .contact a {
       color: #0077cc;
       text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 2rem 1rem;
+      background: #f0f0f0;
     }
   </style>
 </head>
 <body>
 
 <header>
+  <img src="profile.jpg" alt="Angela Li">
   <h1>Angela Li</h1>
   <p>Data Scientist | Developer | Analyst</p>
 </header>
 
 <section>
-  <h2>About Me</h2>
-  <p>I'm Angela Li, a graduate student in Data Science at the University of Calgary. I specialize in Python, R, and Azure, and have experience in data engineering, analytics, and dashboard development. My work bridges software development with impactful, data-driven insights.</p>
+  <h2><i class="fas fa-user icon"></i>About Me</h2>
+  <div class="about">
+    <p>I'm Angela Li, a graduate student in Data Science at the University of Calgary. I specialize in Python, R, and Azure, and have experience in data engineering, analytics, and dashboard development. My work bridges software development with impactful, data-driven insights.</p>
+  </div>
 </section>
 
 <section>
-  <h2>Projects</h2>
+  <h2><i class="fas fa-graduation-cap icon"></i>Education</h2>
+  <div class="education">
+    <p><strong>Master of Data Science</strong>, University of Calgary (2023 – Present)</p>
+    <p><strong>BSc in Computer Science</strong>, Mount Royal University (2018 – 2022)</p>
+    <p>GPA: 3.79 | Dean’s List | Minor in Mathematics</p>
+  </div>
+</section>
+
+<section>
+  <h2><i class="fas fa-diagram-project icon"></i>Projects</h2>
   <div class="project">
     <h3>Heart Disease Prediction</h3>
     <p>Used classification models to predict heart disease using health indicators.</p>
     <p><strong>Tools:</strong> Python, scikit-learn, pandas</p>
   </div>
   <div class="project">
-    <h3>Sentiment Analysis on Social Media</h3>
-    <p>Analyzed Twitter data using NLP techniques to identify sentiment trends.</p>
-    <p><strong>Tools:</strong> Python, NLTK, Tableau</p>
+    <h3>Natural Language Processing for Emotion Analysis</h3>
+    <p>Built an NLP model to classify emotions in text using machine learning techniques. Explored preprocessing, vectorization, and model evaluation in Colab.</p>
+    <p><strong>Tools:</strong> Python, scikit-learn, pandas, NLP</p>
+    <p><a href="https://colab.research.google.com/drive/16cM_B_D0siJM3PhY8paP8ssqBjfM7Hxe" target="_blank">View Project Notebook</a></p>
   </div>
   <div class="project">
     <h3>Education & Career Pathways</h3>
@@ -87,19 +115,21 @@
 </section>
 
 <section>
-  <h2>Skills</h2>
-  <p><strong>Languages:</strong> Python, R, SQL, Java</p>
-  <p><strong>Tools:</strong> Azure, Power BI, Tableau, Databricks</p>
-  <p><strong>Techniques:</strong> Classification, Clustering, Regression, PCA</p>
+  <h2><i class="fas fa-cogs icon"></i>Skills</h2>
+  <div class="skills">
+    <p><strong>Languages:</strong> Python, R, SQL, Java</p>
+    <p><strong>Tools:</strong> Azure, Power BI, Tableau, Databricks</p>
+    <p><strong>Techniques:</strong> Classification, Clustering, Regression, PCA</p>
+  </div>
 </section>
 
 <section>
-  <h2>Contact</h2>
+  <h2><i class="fas fa-envelope icon"></i>Contact</h2>
   <div class="contact">
-    <p>Email: <a href="mailto:angela.li1@ucalgary.ca">angela.li1@ucalgary.ca</a></p>
-    <p>Phone: <a href="tel:4038154515">403-815-4515</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/angela-li-520520/">angela-li-520520</a></p>
-    <p>Linktree: <a href="https://linktr.ee/firekeepur">firekeepur</a></p>
+    <p><i class="fas fa-envelope icon"></i>Email: <a href="mailto:angela.li1@ucalgary.ca">angela.li1@ucalgary.ca</a></p>
+    <p><i class="fas fa-phone icon"></i>Phone: <a href="tel:4038154515">403-815-4515</a></p>
+    <p><i class="fab fa-linkedin icon"></i>LinkedIn: <a href="https://www.linkedin.com/in/angela-li-520520/">angela-li-520520</a></p>
+    <p><i class="fas fa-link icon"></i>Linktree: <a href="https://linktr.ee/firekeepur">firekeepur</a></p>
   </div>
 </section>
 
